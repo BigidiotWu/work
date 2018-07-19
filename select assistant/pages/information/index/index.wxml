@@ -1,0 +1,46 @@
+<!--<import src="/template/information/loads.wxml" />
+<template is="loads" data="{{hidden:hid}}"/>
+
+<import src="/template/information/index/figure.wxml"/>
+<template is="figure" data="{{display:dis}}"/>-->
+
+<!--<view class="menu">
+    <scroll-view class="scroll-view_H" scroll-x="true" >
+        <view id="{{menu_id}}" bindtap="click_menu" wx:for="{{menu}}" wx:for-index="menu_id" wx:for-item="item" class="nav_font">
+            <block wx:if="{{menu_id == menuStatic}}"><text class="nav_hover">{{item}}</text></block>
+            <block wx:else>{{item}}</block>
+        </view> 
+    </scroll-view>
+    <view class="add_menu">
+        <image src="/images/swdw.png"></image>
+    </view>
+</view>-->
+
+
+<view class="news_content" id="1" catchtap="detail">
+    <view class="news_content_left">
+      <view class="news_content_left_top">
+          
+           <image image class="image" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"/>
+           <view class="text_top">选择困难症的三大星座</view>
+           <text class="time">2018.7</text>
+      </view>
+     
+    </view>
+    
+</view>
+
+<view class="news_content" id="2" catchtap="article">
+
+
+    <view class="news_content_right">
+      <view class="news_content_right_top">
+
+       <image image class="imagee" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"/>
+    <view class="text_top">选择困难症，也许只是一种习惯的养成而已</view>
+          <text class="timee">2018.7</text>
+        </view>
+     
+    </view>
+    
+</view>

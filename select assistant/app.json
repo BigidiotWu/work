@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/information/index/index",
+    "pages/personal/index/index",
+    "pages/personal/index/mysave/mysave",
+    "pages/index/personal/index/index",
+    "pages/index/scene/scene",
+    "pages/index/scene/eat/eat",
+    "pages/index/scene/buy/buy",
+    "pages/information/article/article",
+    "pages/information/detail/detail",
+    "pages/index/canvas/canvas",
+    "pages/dices/dices",
+    "pages/randomNum/randomNum"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "selection assistant",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/21.png"
+      },
+      {
+        "pagePath": "pages/information/index/index",
+        "text": "文档",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/personal/index/index",
+        "text": "我",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/31.png"
+      }
+    ]
+  }
+}

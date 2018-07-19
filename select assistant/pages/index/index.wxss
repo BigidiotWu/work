@@ -1,0 +1,36 @@
+
+Page{
+  height:100%;}
+#section_top{
+  height:100%;
+  width:100%;
+}
+#section .menus_title{
+    display:block;
+    font-size:24px;
+    padding:20%;
+    font-weight:bold;
+}
+
+.flex-wrp{
+    height: 33%;
+    display:flex;
+    border-bottom:0.5px solid #ebebeb;
+}
+.flex-item{
+    width: 50%;
+    color:#000; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:8px;
+}
+  .section_1  {
+    margin-top:5px;
+    display:flex;
+    font-size:15px;
+    width:100%;
+    justify-content: center;
+}
+
+ 

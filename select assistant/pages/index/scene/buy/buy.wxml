@@ -1,0 +1,37 @@
+<!--pages/index/scene/buy/buy.wxml-->
+<view class="swiper">
+    <progress percent="100" stroke-width="2" active color="#333"/>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="autoplay" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" style="height:420rpx;width:100%;" class="slide-image" mode="scaleToFill"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<text class="wenben1">
+先想想
+</text>
+<text class="wenben">
+银行卡里还有钱吗？买完吃土吗？没钱你还买啥？别买了。
+</text>
+<view class="btn-container">
+<view style='display:flex;justify-content: center;align-items: center;height:80px;width:200px;background-image:url("images/5.jpg");background-repeat:round;'>
+<view>
+{{result1}}
+</view>
+</view>
+</view>
+<view class="btn-container"catchtap="start" hidden="{{hideBtn}}">
+<view style='display:flex;justify-content: center;align-items: center;height:60px;width:80px;'>
+<view>
+开始
+</view>
+</view>
+</view>
+<view class="xinli" hidden="{{hideBtn2}}">
+   对这个结果不满意或是有一瞬间的犹豫，说明这个东西现阶段并不是必须的，你的内心还是拒绝购买的，既然如此，别买了，赶紧工作赚钱呀，变有钱后，一切都不是事。
+</view>
+<view class="xinli" hidden="{{hideBtn3}}">
+   hold住呀，别买了，钱是大风刮来的吗，上天都替你做出决定了，还是别买了。
+</view>

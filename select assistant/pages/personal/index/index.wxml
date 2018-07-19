@@ -1,0 +1,15 @@
+<view id="header">
+      <view wx:if="{{!hasUserInfo && canIUse}}" class="button1">
+    	 <button size="mini"open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      </view>
+      <view class="content" wx:else>
+       <image src="{{userInfo.avatarUrl}}" ></image>
+       <view class="nickname">{{userInfo.nickName}}</view>
+      </view>
+</view>
+<view id="menus">
+    <navigator url='mysave/mysave' class="content" wx:for="{{y_menus}}">
+        <view class="view"><text>{{item.title}}</text></view>
+        <view class="right"><image src="/images/rightjian.png" style="width:14px;height:14px"></image></view>
+    </navigator>
+</view>

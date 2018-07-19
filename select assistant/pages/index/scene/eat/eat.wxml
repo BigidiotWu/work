@@ -1,0 +1,27 @@
+<!--pages/index/scene/eat/eat.wxml-->
+<text class="wenben">
+对吃的完全没有想法，不妨交给我们，截个图，看看吃什么吧。
+</text>
+ <image src="1.gif" style="width:400rpx;height:400rpx;margin-left:22%;" mode="aspectFit"></image>
+<text class="wenben">
+ 对截出的图不满意，或者上面没有你想吃的，那就自定义选项吧。
+</text>
+<view class="input1">
+ <image bindtap="add_input" src="2.jpg"style=" width:45rpx;height:45rpx;" />
+  <text style="padding-left:20rpx;font-size:33rpx;">单击左侧按钮添加选项</text>
+</view>
+<view class="input1">
+ <image bindtap="delect_input" src="3.jpg"style=" width:45rpx;height:45rpx;" />
+  <text style="padding-left:20rpx;font-size:33rpx;">单击左侧按钮删除选项</text>
+</view>
+<view  style="padding-left:80rpx;padding-right:80rpx;" wx:for="{{input}}">
+<input  class="xuanxiang" placeholder="请输入选项名字" placeholder-style="color:silver;" maxlength="-1" bindtap="changecolor"/>
+</view> 
+<view style="color:margin-top:50rpx;text-align: center;justify-content: center; align-items: center;">选择选项<text style="color:#03F;font-size:45rpx;">{{result}}</text></view>
+<view id="btn-start">
+<image src="5.png" style="height:100rpx;width:100rpx; " catchtap="start" hidden="{{hideBtn}}"mode="aspectFit"/>
+</view>
+<view class="xinli" hidden="{{hideBtn2}}">
+   做不出决定？还在浪费时间纠结？说明你没有特别想吃的，不妨交给我们，相信我们的决定吧。
+</view>
+

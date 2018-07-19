@@ -1,0 +1,31 @@
+<view class="swiper">
+    <progress percent="100" stroke-width="2" active color="#333"/>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="autoplay" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" style="width:100%;" class="slide-image" mode="widthFix"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<text class="wenben1">
+Scene
+</text>
+<text class="wenben">
+如果您有选择困难症，不知道选什么，不妨相信我们吧。
+</text>
+<view id="section">
+    <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item {{item.classes}}" wx:for="{{x_menus}}">
+        <navigator url='{{item.url2}}'  open-type="navigate">
+            <view>
+                <image src="{{item.icon}}" class="icon"></image>
+            </view>
+            <view class="menus_title">
+                <text>{{item.title}}</text>
+            </view>
+          </navigator>
+        </view>
+    </view>
+</view>
+

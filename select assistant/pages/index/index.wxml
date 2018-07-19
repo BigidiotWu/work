@@ -1,0 +1,41 @@
+<view id="section_top">
+<view class="swiper">
+    <progress percent="100" stroke-width="2" active color="#333"/>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" height="150"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+
+<view id="section">
+    <view class="flex-wrp"  style="flex-direction:row;">
+        <view  class="flex-item "  wx:for="{{x_menus}}">
+            <navigator url='{{item.url2}}'  open-type="navigate" class="menus_title"  style="background-repeat:round;background-image:url({{item.url1}});">
+                <text>{{item.title}}</text>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<view id="section">
+    <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item " wx:for="{{x2_menus}}">
+            <navigator url='{{item.url2}}'  open-type="navigate" class="menus_title" style="background-repeat:round;background-image:url({{item.url1}})">
+                <text>{{item.title}}</text>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+
+<view class="section_1">
+  <view>对做出的决策不满意？</view>
+</view>
+  <view class="section_1">
+  <image src='images/点我.png' style="height:50px;width:50px"/>
+  </view>
+</view>

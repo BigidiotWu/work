@@ -1,0 +1,53 @@
+<view id="main">
+    <view class="title">
+       {{title1}}
+    </view>
+    <view class="numbers">
+       <text>4小时前</text>
+       <text>阅读量1215</text>
+       <image bindtap="haveSave" src="{{isClick?'1.png':'2.png'}}"/>
+       <text style="padding:0" bindtap="haveSave">{{isClick?'已收藏':'收藏'}}</text>
+    </view>
+    <view class="content">
+          <text>
+    每个人的一生当中都会面临无数个分岔路口，同样也需要我们做出无数个选择，选择可大可小，大到求学工作择偶，小到吃饭穿衣。然而它们就像无数的小水滴，最终汇聚成了生命的长河。下面就让我们来看看，十二星座中有哪些患有选择困难症的星座吧。
+          <br/>
+          </text>
+          <image src="https://p.d1xz.net/2017/05/23/14955081096616453.jpg" style="width:100%;"></image>
+          <text>
+          <br/>
+          天秤座：纠结星人
+          <br/>
+          　　优柔寡断是天秤座的一大硬伤，纠结星人当之无愧。一个问题总要反反复复来回想，思考上三天三夜还没做出决定，做个决策比登天还难！有时不免让人怀疑他们这么多年到底是怎么活过来的，真是一个大写的问号。
+          <br/>
+          </text>
+          <image src="https://p.d1xz.net/2017/05/23/14955081233234998.jpg" style="width:100%;"></image>
+          <text>
+          <br/>
+          巨蟹座：磨磨叽叽
+          <br/>
+          顾虑相当多的巨蟹座，做选择时就是慢吞吞的乌龟。遇到问题各种各种纠结各种磨叽，活脱脱的卡带录音机，半天吐不出一个字。思前想后半天把自己整得焦头烂额，可惜最后也没想出个所以然。
+          <br/>
+          </text>
+          <image src="https://p.d1xz.net/2017/05/23/14955081489342436.jpg" style="width:100%;"></image>
+          <text>
+          <br/>
+          处女座：深谋远虑
+          <br/>
+          做事喜欢瞻前顾后的完美处女，一向奉承心急吃不了热豆腐的原则。每做一个决定都要经过长时间的深思熟虑，分分钟还得列个思维导图进行分析，一来二去做决策的周期也就相对延长了。毕竟处女座可是出了名的谨慎星座。
+          <br/>
+          <br/>
+          <br/>
+          以上就是有严重选择困难症的星座们，小编想说有时候太过小心谨慎也不是一件好事，不可否认做一个正确的选择固然很重要，但更重要的是能对自己的选择负责。
+          </text>
+    </view>
+    <view class="comments_list">
+        
+    </view>
+</view>
+<view id="comments">
+    <view class="input">
+          <input class="text" type="text" placeholder="写点什么吧"/>
+          <button type="default" class="submit">发表评论</button>
+    </view>
+ </view>

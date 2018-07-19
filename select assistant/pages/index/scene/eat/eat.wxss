@@ -1,0 +1,32 @@
+/* pages/index/scene/eat/eat.wxss */
+.wenben{
+  display:block;
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px 8px 30px ;
+    font-size:13px;
+    color:silver;
+  
+
+}
+.input1{display:flex;
+ flex-direction:row; 
+  height:40rpx;
+  margin-left:20%;
+  margin-bottom:30rpx;
+}
+.xuanxiang{
+  border:0.5px solid #ebebeb;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#btn-start{
+  display:flex;
+  margin:30rpx 0 30rpx 0;
+  flex-direction:row; 
+ justify-content: center;
+  width:100%;
+  height:100rpx;
+}

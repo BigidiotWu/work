@@ -1,0 +1,31 @@
+#section .icon{
+    width:40px;
+    height:40px;
+
+}
+#section .menus_title{
+    display: block;
+}
+#section .menus_title text{
+    font-size:13px;
+}
+.flex-wrp{
+    height: 60px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+    width: 33.33%;
+    height: 80px;
+    color: #000;
+    padding-top:8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom:0.5px solid #ebebeb; 
+     border-top:0.5px solid #ebebeb; 
+}
+.two_side{
+    border-left:0.5px solid #ebebeb;  
+    border-right:0.5px solid #ebebeb; 
+}

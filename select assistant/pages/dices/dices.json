@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/custom/custom",
+    "pages/custom/itemSetting/itemSetting",
+    "pages/dices/dices",
+    "pages/randomNum/randomNum"
+  ]
+}
